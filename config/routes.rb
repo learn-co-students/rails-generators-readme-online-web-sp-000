@@ -1,4 +1,30 @@
 Rails.application.routes.draw do
+  get 'categories/new'
+
+  get 'categories/create'
+
+  get 'categories/edit'
+
+  get 'categories/update'
+
+  get 'categories/destroy'
+
+  get 'categories/index'
+
+  get 'accounts/new'
+
+  get 'accounts/create'
+
+  get 'accounts/edit'
+
+  get 'accounts/update'
+
+  get 'accounts/destroy'
+
+  get 'accounts/index'
+
+  get 'accounts/show'
+
   resources :accounts
   get 'admin/dashboard'
 
