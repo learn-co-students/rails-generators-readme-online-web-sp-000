@@ -84,3 +84,10 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
+
+post_via_redirect.post_via_redirect.logger
+post_via_redirect.require.logger
+
+ActiveSupport.log_formatter.allowed_request_origins.log_formatter
+
+
